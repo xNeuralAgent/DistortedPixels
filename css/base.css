@@ -12,7 +12,7 @@ body {
 	margin: 0;
 	--color-text: #fff;
 	--color-bg: #000;
-	--color-link: #c63643;
+	--color-link: #39bcff;
 	--color-link-hover: #fff;
 	color: var(--color-text);
 	background-color: var(--color-bg);
@@ -198,7 +198,14 @@ a:focus-visible {
 	opacity: 0.7;
 	line-height: 0.8;
 }
-
+span.underline { 
+    color: rgb(216, 151, 0); 
+    text-decoration: underline; 
+} 
+span.underline a { 
+    color: rgb(240, 250, 255); 
+    text-decoration: none; 
+} 
 
 @media screen and (min-width: 53em) {
 	.frame {
